@@ -49,3 +49,13 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.Topnav {
+    display: flex;
+    gap: 20px;
+}
+
+.Topnav_text{
+    font-size: 18px;
+    color: #ffffff;
+}
