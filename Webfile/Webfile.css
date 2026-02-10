@@ -55,7 +55,10 @@ a {
     gap: 20px;
 }
 
-.Topnav_text{
+.Topnav a{
     font-size: 18px;
+    margin-left: 16px;
+    letter-spacing: 2px;
     color: #ffffff;
+    text-decoration: none;
 }
