@@ -63,19 +63,17 @@ a {
     text-decoration: none;
 }
 
-.Contactcontainer
-{
-    display: flex;
+.Contactcontainer {
+  display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: space-between;
-    margin: 0px;
-    background-color: rgb(0, 0, 0);
- width: 40%;
-    color: rgb(255, 255, 255);
-    padding-left: 10%;
-    padding-top: 5%;
-    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+    color: white;
+    background-color: black;
+    padding: 5% 0 5% 10%;
+    gap: 16px;
+    height: 68vh;
 }
 
 .contactbackground {
@@ -93,8 +91,8 @@ a {
 .ContactInfotop {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
     margin-bottom: 40px;
 }
 
@@ -103,4 +101,23 @@ a {
     flex-direction: column;
     align-items: left;
     justify-content: space-between;
+    margin-bottom: auto;
 }
+
+.logoaddon {
+    width: 100px;
+    height: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    opacity: 0.4;
+}
+
+.logoaddon img {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    top: 300px;
+    left: 50px;
+}
+
