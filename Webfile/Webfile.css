@@ -72,7 +72,7 @@ a {
 
 .Topnav a:hover {
     color: #ffffff;
-    border: #505050 1px solid;
+    border: #ffffff 1px solid;
 }
 
 .Contactcontainer {
@@ -215,14 +215,14 @@ a {
     object-fit: cover;
 }
 
-.GtaContainer {
+.GameDescContainer {
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
     gap: 10px;
     color: white;
-    margin-top: 50px;
+    margin-top: 200px;
     padding: 20px 20px;
     margin-bottom: 170px;
     background-color: #fff; 
@@ -231,11 +231,40 @@ a {
     margin-right: auto; 
     background-color: rgba(0, 0, 0, 0.5); 
     height: 75%;
+    font-size: 15px;
+    
 }
 
-.GtaContainer img{
-    width: 400px;
-    height: 300px;
-    
-    object-fit: cover;
+.GameDescContainer img{
+    width: 500px;
+    height: 400px;
+}
+
+.HomepageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    margin-top: 10px;
+    padding: 20px 20px;
+    margin-bottom: 170px;
+    background-color: #fff; 
+    max-width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 75%;
+    font-size: 30px;
+}
+
+.HomepageContain a{
+    border: #fff 1px solid;
+    padding: 8px 16px;
+}
+
+.HomepageContain a:hover{
+    color: #747474;
+    border: #747474 1px solid;
 }
