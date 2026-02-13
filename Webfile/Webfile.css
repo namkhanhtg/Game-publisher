@@ -1,5 +1,10 @@
+html, body {
+    height: 100%;
+}
+
 .Topcontainer
 {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,7 +85,7 @@ a {
     background-color: black;
     padding: 5% 0 5% 10%;
     gap: 16px;
-    height: 68vh;
+    height: 70%;
 }
 
 .contactbackground {
@@ -143,7 +148,7 @@ a {
     margin-left: auto; 
     margin-right: auto; 
     background-color: rgba(0, 0, 0, 0.5); 
-    height: 100%;
+    height: 75%;
 }
 
 .NewsContain{
@@ -173,3 +178,4 @@ a {
     right: 400px;
     color: white;
 }
+
